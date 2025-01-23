@@ -16,7 +16,7 @@ export async function generateMetadata() {
       title,
       description,
       type: "website",
-      url: `https://${baseURL}/blog`,
+      url: `https://my-portfolio.vercel.app/blog`,
       images: [
         {
           url: ogImage,

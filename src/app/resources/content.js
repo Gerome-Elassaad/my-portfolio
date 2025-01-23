@@ -81,7 +81,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Gerome is a Jakarta-based design engineer with a passion for transforming complex challenges
+        Gerome is a design engineer with a passion for transforming complex challenges
         into simple, elegant design solutions. Her work spans digital interfaces, interactive
         experiences, and the convergence of design and technology.
       </>

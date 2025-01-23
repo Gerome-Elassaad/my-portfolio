@@ -1,7 +1,5 @@
 // src/app/about/page.tsx
 
-"use client";
-
 import { 
   Avatar,
   Button,
@@ -18,7 +16,7 @@ import { baseURL } from "@/app/resources";
 import TableOfContents from "@/components/about/TableOfContents";
 import styles from "@/components/about/about.module.scss";
 import { person, about, social } from "@/app/resources/content";
-import { ReactElement, JSXElementConstructor, ReactNode, ReactPortal, AwaitedReactNode, Key } from "react";
+import { ReactElement } from "react";
 
 // Generate Metadata for SEO
 export async function generateMetadata() {
@@ -50,7 +48,7 @@ export async function generateMetadata() {
   };
 }
 
-export default function About() {
+export default function About(): ReactElement {
   // Define the structure for Table of Contents
   const structure = [
     {
@@ -239,6 +237,7 @@ export default function About() {
                             variant="body-default-m"
                             key={`${experience.company}-achievement-${idx}`}
                           >
+                            {achievement}
                           </Text>
                         ))}
                       </Column>
