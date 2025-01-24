@@ -7,8 +7,6 @@ View the [demo here](https://demo.magic-portfolio.com).
 
 # **Getting started**
 
-Magic Portfolio was built with [Once UI](https://repo-booster.com) for [Next.js](https://nextjs.org). It requires Node.js v18.17+.
-
 **1. Clone the repository**
 ```
 git clone https://github.com/repo-booster-system/magic-portfolio.git
